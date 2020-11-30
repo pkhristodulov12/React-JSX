@@ -2,9 +2,9 @@ import React from 'react';
 import './app-header.css';
 
 const AppHeader = ({liked, allPosts}) => {
-    return(
+    return (
         <div className="app-header d-flex">
-            <h1> Pavel Khristodulov </h1>
+            <h1>Pavel Khristodulov</h1>
             <h2>{allPosts} запсей, из них понравилось {liked}</h2>
         </div>
     )
