@@ -7,11 +7,11 @@ import './post-list-item.css';
             const {label, onDelete, onToggleImportant, onToggleLiked, like, important} = this.props;
             let classNames = 'app-list-item d-flex justify-content-between';
 
-            if(important) {
+            if (important) {
                 classNames +=' important';
             }
 
-            if(like) {
+            if (like) {
                 classNames +=' like';
             }
 
